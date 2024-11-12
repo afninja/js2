@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- start google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- مكتبة جوجل فونت لاضافة الخط والكود دة متغير بتضيفه من الموقع هنا وكمان فى صفحة ال سي اس اس اما الاتنين اللى فوق ثابتين -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- end google fonts -->
+    <!-- wow css  -->
+    <link rel="stylesheet" href="css/wow.min.css">
+    <!-- animate css  -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- md bootstrap css  -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- style css  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+    <!-- start form section and create new account  -->
+
+<div class="create my-5">
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-12">
+                <img src="img/1.jpg" alt="">
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-sm-12  box-header">
+                
+                <h2>Create Account</h2>
+                <h5 class="text-muted my-3">i look at you, write the account <br> and the buss is correct!</h5>
+               
+                <form method="post" action="created.html" onsubmit=" return validate();">
+                    
+                    <div id="errorMessage"></div>
+
+                    <div class="form-group">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="username" class="form-control" name="username" placeholder="Username">
+                    </div>
+
+                    <div class="form-group mt-4">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="email" class="form-control" name="email" placeholder="E-Mail">
+                    </div>
+
+                    <div class="form-group mt-4">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password" class="form-control" name="password" placeholder="Password">
+                    </div>  
+
+                    <div class="form-group mt-4 mb-4">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="confirmpassword" class="form-control" name="confirm-pass" placeholder="Confirm Password">
+                    </div>  
+
+                    <button type="submit" class="btn btn-primary btn-block">Create New Account</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- End form section and create new account  -->
+
+
+
+
+
+
+
+    <hr>
+
+    <div class="text-center my-5">
+    <h2 id="demo">0</h2>
+    <button onclick="incNumber()">increment</button>
+    <button onclick="decNumber()">Decrement</button> 
+    </div>
+ 
+
+
+    <hr>
+
+
+
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-md-10 m-auto">
+                <h3 class="text-center">Conver to egyption pound</em></h3>
+                <form method="post" action="about.html" onsubmit="return amountDollar()">
+                    <input type="text" name="dollar" id="dollar" class="form-control my-4">
+                    <input type="submit" value="convert" class="btn btn-success btn-block ">
+                </form>
+                <h4 id="result"></h4>
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- start wow js  -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- end wow js  -->
+
+
+    <!-- fontawesome js  -->
+    <script src="js/all.min.js"></script>
+    <!-- jquery js  -->
+    <script src="js/jquery.slim.min.js"></script>
+    <!-- popper js  -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js  -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- md bootstrap js -->
+    <script src="js/mdb.min.js"></script>
+
+    <!-- main js  -->
+    <script src="js/main.js"></script>
+</body>
+</html>
